@@ -1,0 +1,22 @@
+<input id="num1" value="4">
+<input id="num2" value="3">
+<button onclick = "resultfunction()">add</button>
+<p id="result">result</p>
+
+<script>
+    var one=document.getElementById("num1")
+    var two = document.getElementById("num2")
+
+    var res = document.getElementById("result")
+
+    function resultfunction()
+    {
+        var onee = Number(one.value)
+        var twee = Number(two.value)
+
+        var total = onee+twee
+
+         result.textContent = total
+    }
+
+</script>
